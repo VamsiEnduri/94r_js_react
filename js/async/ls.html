@@ -1,0 +1,65 @@
+<!-- fe  :-- js
+be :-- python 
+db :-- mysql / supabase
+
+web storage :-- ls,ss,cookies
+5mb only
+
+to store loggeduser data
+redis :--  -->
+<!-- 
+local storage :-- is web broswerstorage with 5mb storage capacity where 
+we can store , get,update,delete data in ls with ls methods
+and we have 4 methods 
+1.setItem() :-- to store data in ls localstoarge.setItem("key",value)
+2.getItem() :-- to get data from ls
+3.clear() :-- clear all data in ls
+4.removeItem() :-- to remove one item from ls -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Local Storage Demo</title>
+
+    <link rel="stylesheet" href="ls.css">
+</head>
+
+<body>
+
+   <div class="main">
+     <div class="container">
+
+        <h1>Local Storage</h1>
+
+        <p class="subtitle">
+            Manage data using JavaScript Local Storage
+        </p>
+
+        <div id="btns"></div>
+        
+
+    </div>
+
+  
+        <table id="table">
+            <thead>
+                <th>S.no</th>
+                <th>name</th>
+                <th>Email</th>
+                <th>op-1</th>
+                <th>op-2</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+   </div>
+
+
+    <script src="ls.js"></script>
+
+</body>
+
+</html>
