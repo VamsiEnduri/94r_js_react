@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "name": "Vamsi Enduri",
+      "email": "vamsienduri1234@gmail.com",
+      "password": "123456",
+      "confirm_password": "123456",
+      "role": "trainer",
+      "id": "qi2re1YZOHg"
+    },
+    {
+      "name": "ravi",
+      "email": "ravi@gmail.com",
+      "password": "1234567",
+      "confirm_password": "123456",
+      "role": "student",
+      "id": "1p76fmBOBVw"
+    }
+  ],
+  "fruits": [],
+  "chairs": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
